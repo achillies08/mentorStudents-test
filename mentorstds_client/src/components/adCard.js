@@ -20,7 +20,7 @@ const AdCard = () => {
         <Typography variant="body1" color="initial">
           {ad.primaryText}
         </Typography>
-        <img src={ad.imageUrl} alt={ad.name} />
+        <img src={ad.imageUrl} alt={ad.name} width="400px" height="400px" />
         <Stack
           direction={"row"}
           spacing={1}
